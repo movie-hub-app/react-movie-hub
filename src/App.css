@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa; /* Light bluish background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.movie-list-container {
+    background-color: #e0f7fa;
+}
+
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-card-content h6 {
+    font-weight: bold;
+    color: #333;
+}
+
+.movie-card-content .description {
+    color: #555;
+}
+
+.movie-card-content .details .genre {
+    color: #0288d1; /* Light blue for genre */
+}
+
+.movie-card-content .details .rating {
+    color: #d32f2f; /* Red for rating */
+}
+
+.movie-card-content .details .release-date {
+    color: #757575; /* Grey for release date */
+}
