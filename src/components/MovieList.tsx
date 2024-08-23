@@ -22,10 +22,12 @@ const MovieList: React.FC = () => {
 
     const MAX_DESCRIPTION_LENGTH = 32;
 
-    const handleCardClick = (id: number) => {
+    const handleCardClick = (id?: number) => {
         navigate(`/movies/${id}`);
     };
 
+    // @ts-ignore
+    // @ts-ignore
     // @ts-ignore
     return (
         <Box sx={{ flexGrow: 1, padding: 3 }} className="movie-list-container">
